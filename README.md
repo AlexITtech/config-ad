@@ -51,3 +51,27 @@ We then update the DNS server setting on Client-1, assigning it the static priva
 
 ![image](https://github.com/user-attachments/assets/a259be4e-d527-4c38-bb01-4c9141c80897)
 After both virtual machines have restarted, we connect to Client-1 via RDP. From within PowerShell, we ping the IP address of DC-1 to verify network connectivity—this should succeed because the firewall on DC-1 has been disabled. Next, we run the ipconfig /all command on Client-1 to confirm that DC-1's IP address is correctly set as the DNS server for the VM.
+
+
+![image](https://github.com/user-attachments/assets/b002fb54-faf9-4378-bc53-aff513a240c1)
+Proceed by installing Active Directory Domain Services on the domain controller (DC-1) using Server Manager."
+
+
+![image](https://github.com/user-attachments/assets/f6f51703-a67e-4ad9-b08f-4677e6713cc7)
+Next, we promote DC-1 to a Domain Controller by creating a new forest with the domain name 'mydomain.com'."
+
+
+
+![image](https://github.com/user-attachments/assets/de2804ed-b9de-4119-8410-fce1af6d1254)
+"
+Next, we launch Active Directory Users and Computers and create two organizational units named _EMPLOYEES and _ADMINS by right-clicking 'mydomain.com', selecting 'New', and then choosing 'Organizational Unit'."
+
+
+![image](https://github.com/user-attachments/assets/d3514ca2-54b5-4c89-8898-22b29a7c20e8)
+
+"Next, we assign Jane Doe to the Domain Admins group by right-clicking her user account, selecting 'Properties', navigating to the 'Members Of' tab, and clicking 'Add'. In the 'Enter the object names to select' field, we type 'Domain Admins' and press Enter to complete the process."
+
+
+
+
+
