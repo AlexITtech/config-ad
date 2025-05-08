@@ -88,4 +88,19 @@ Next, from the Client-1 VM, we initiate the domain join process. After connectin
 
 "We then return to DC-1, open Active Directory Users and Computers, and create a new organizational unit named _CLIENTS under the mydomain.com domain.
 
+![image](https://github.com/user-attachments/assets/3587f68f-b39e-408f-9103-b44d02727063)
+
+"Next, we log into the Client-1 VM using the jane_admin account. We right-click the Windows logo, go to 'System', and select 'Remote Desktop'. Then, we click 'Select users that can remotely access this PC' and add domain users to grant them RDP access."
+
+![image](https://github.com/user-attachments/assets/50befb99-271f-43b2-802d-13fc4f33c772)
+
+We access PowerShell ISE on DC-1 with administrative rights under the jane_admin account, paste in the script from Josh Madakor's GitHub, and execute it to generate thousands of user accounts automatically."
+
+
+![image](https://github.com/user-attachments/assets/1a084fe3-62e5-4628-be55-e69733dbebcd)
+
+After executing the script, we open Active Directory Users and Computers to confirm that the accounts have been successfully created in the _EMPLOYEES organizational unit."
+
+
+
 
