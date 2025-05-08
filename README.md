@@ -69,7 +69,13 @@ Next, we launch Active Directory Users and Computers and create two organization
 
 ![image](https://github.com/user-attachments/assets/d3514ca2-54b5-4c89-8898-22b29a7c20e8)
 
-"Next, we assign Jane Doe to the Domain Admins group by right-clicking her user account, selecting 'Properties', navigating to the 'Members Of' tab, and clicking 'Add'. In the 'Enter the object names to select' field, we type 'Domain Admins' and press Enter to complete the process."
+Within the _ADMINS organizational unit (OU), we create a new user account for Jane Doe with the username 'jane_admin'."
+
+
+![image](https://github.com/user-attachments/assets/4d567567-fcad-4146-bd60-bcdbb998f026)
+
+Within the _ADMINS organizational unit (OU), we create a new user account for Jane Doe with the username 'jane_admin'."
+
 
 
 
