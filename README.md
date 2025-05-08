@@ -101,6 +101,9 @@ We access PowerShell ISE on DC-1 with administrative rights under the jane_admin
 
 After executing the script, we open Active Directory Users and Computers to confirm that the accounts have been successfully created in the _EMPLOYEES organizational unit."
 
+![image](https://github.com/user-attachments/assets/43afadfc-6c20-4e80-829c-3b0d2a544475)
+
+"Finally, we log into the Client-1 VM using one of the accounts created by the script, using the username and default password 'Password1'. Once logged in, we open PowerShell to confirm that we are logged in as one of the script-generated users."
 
 
 
