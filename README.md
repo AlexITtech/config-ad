@@ -74,10 +74,18 @@ Within the _ADMINS organizational unit (OU), we create a new user account for Ja
 
 ![image](https://github.com/user-attachments/assets/4d567567-fcad-4146-bd60-bcdbb998f026)
 
+![image](https://github.com/user-attachments/assets/cb729ef7-58ec-4f8b-a4e8-996ff30aa16c)
+
 Within the _ADMINS organizational unit (OU), we create a new user account for Jane Doe with the username 'jane_admin'."
 
 
+![image](https://github.com/user-attachments/assets/b8378745-7dbd-4a27-85d2-1a4139ee4569)
+
+Next, from the Client-1 VM, we initiate the domain join process. After connecting via RDP, we right-click the Windows logo, select 'System', and click 'Rename this PC (Advanced)'. We then choose 'Change', select 'Domain', enter 'mydomain.com', and restart the VM to apply the changes."
 
 
+![image](https://github.com/user-attachments/assets/86a2080a-be1d-4480-a99c-7f40075b943a)
+
+"We then return to DC-1, open Active Directory Users and Computers, and create a new organizational unit named _CLIENTS under the mydomain.com domain.
 
 
